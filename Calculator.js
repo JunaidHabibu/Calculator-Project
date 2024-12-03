@@ -8,6 +8,3 @@ function Addition(a, b)
 }
 
 Addition(a,b)
-
-//Add Subtraction
-//Add multiplication
