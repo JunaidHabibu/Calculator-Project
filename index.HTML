@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+
+        <div id = "calculator">
+
+            <input id="display" readonly>
+
+            <div id="buttons">
+
+                <button onclick="ClearDisplay()" class="operator-2nd">C</button>
+
+                <button onclick="Delete()" class="del">DEL</button>
+
+                <button onclick="Power()" class="operator-2nd">^2</button>
+
+                <button onclick="Display('+')" class="operator">+</button>
+
+                <button onclick="Display('1')">1</button>
+                <button onclick="Display('2')">2</button>
+                <button onclick="Display('3')">3</button>
+                <button onclick="Display('/')" class="operator">/</button>
+                <button onclick="Display('4')">4</button>
+                <button onclick="Display('5')">5</button>
+                <button onclick="Display('6')">6</button>
+                <button onclick="Display('*')" class="operator">X</button>
+                <button onclick="Display('7')">7</button>
+                <button onclick="Display('8')">8</button>
+                <button onclick="Display('9')">9</button>
+                <button onclick="Display('-')" class="operator">-</button>
+                <button onclick="Display('pie')">pie</button>
+                <button onclick="Display('0')">0</button>
+                <button onclick="Display('.')" class="operator">.</button>
+
+                <button onclick="Calculate()" class="operator">=</button>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

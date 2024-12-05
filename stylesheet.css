@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    font-family: monospace;
+    text-align: left;
+    border: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+    color: white;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+button:active{
+    background-color: rgb(70, 70, 70);
+}
+
+.operator{
+    background-color: rgb(255, 140, 0);
+}
+
+.operator:hover{
+    background-color: rgb(255, 180, 0);
+}
+
+.operator:active{
+    background-color: rgb(255, 100, 0);
+}
+
+.operator-2nd{
+    background-color: rgb(150, 150, 150);
+}
+
+.operator-2nd:hover{
+    background-color: rgb(120, 120, 120);
+}
+
+.operator-2nd:active{
+    background-color: rgb(90, 90, 90);
+}
+
+.del{
+    background-color: rgb(150, 150, 150);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.del:hover{
+    background-color: rgb(120, 120, 120);
+}
+
+.del:active{
+    background-color: rgb(90, 90, 90);
+}
